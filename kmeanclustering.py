@@ -1,10 +1,11 @@
-file = "mall_customer.csv"
+
 
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+file = "mall_customer.csv"
 df = pd.read_csv(file)
 
 features = ['Annual_Income_(k$)', 'Spending_Score']
