@@ -1,6 +1,9 @@
 file = "mall_customer.csv"
 
 import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
 df = pd.read_csv(file)
 
 features = ['Annual_Income_(k$)', 'Spending_Score']
